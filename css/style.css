@@ -163,6 +163,7 @@ nav li a {
       text-align: center;
       letter-spacing: 3px;
       word-spacing: 3px;
+      white-space: normal;
    }
 }
 .footer {
