@@ -1,0 +1,189 @@
+@import url("../css/fonts.css");
+@import url("../css/nullstyle.css");
+
+nav li a {
+   font-family: "Gilroy", sans-serif;
+   color: #00f7ff;
+   font-weight: 700;
+   font-size: 50px;
+   text-shadow: 10px 10px 5px #000;
+   line-height: 130%;
+}
+
+@media (max-width: 767px) {
+   nav li a {
+      font-size: 25px;
+   }
+}
+.wrapper {
+   max-width: 1600px;
+   margin: 0px auto;
+   background-color: #6b8e23;
+   color: #fff;
+   padding: 7px;
+}
+.title-header {
+   padding: 30px 0px 15px 0px;
+   font-family: "Quicksand", cursive;
+   font-size: 50px;
+   font-weight: 700;
+   text-align: center;
+   text-transform: uppercase;
+   line-height: 150%;
+   text-shadow: 10px 10px 5px #000;
+   letter-spacing: 3px;
+}
+
+@media (max-width: 767px) {
+   .title-header {
+      font-size: 30px;
+   }
+}
+
+.content__title {
+   padding: 30px 0px 15px 0px;
+   font-family: "Quicksand", cursive;
+   font-size: 25px;
+   font-weight: 400;
+   text-align: justify;
+   text-transform: capitalize;
+   line-height: 150%;
+   text-shadow: -5px -5px 5px #000;
+}
+
+.content__title > p > span {
+   font-family: "Crimson+Text", sans-serif;
+   color: rgba(245, 6, 6, 0.9);
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.content__main-start {
+   padding: 15px 0px 15px 0px;
+   font-family: "Gilroy", sans-serif;
+   color: #0026ff;
+   font-weight: 700;
+   font-size: 25px;
+   text-shadow: 8px 8px 8px #000;
+   letter-spacing: 2px;
+   text-align: right;
+   word-spacing: 10px;
+   font-style: italic;
+   text-decoration: underline;
+}
+.content__main-xerox {
+   padding: 15px 0px 15px 0px;
+   font-family: "Gilroy", sans-serif;
+   color: #000;
+   font-weight: 400;
+   font-size: 35px;
+   text-shadow: 8px 8px 8px #000;
+   letter-spacing: 5px;
+   text-align: center;
+   text-decoration: line-through;
+}
+.content__main-jobs {
+   padding: 15px 0px 15px 0px;
+   font-family: "Gilroy", sans-serif;
+   color: #fff;
+   font-weight: 700;
+   font-size: 25px;
+   text-shadow: 8px 8px 8px #000;
+   letter-spacing: 2px;
+   text-align: right;
+   word-spacing: 10px;
+   font-style: italic;
+   text-decoration: underline;
+}
+
+.content__main-fail {
+   padding: 15px 0px 0px 15px;
+   font-family: "Gilroy", sans-serif;
+   color: #000;
+   font-weight: 700;
+   font-size: 25px;
+   text-shadow: 8px 8px 8px #000;
+   letter-spacing: 2px;
+   text-align: left;
+   word-spacing: 10px;
+   font-style: italic;
+}
+.content__main-fail > p > span {
+   color: #fff;
+   text-decoration: line-through;
+   text-transform: uppercase;
+   font-family: "Crimson+Text", sans-serif;
+}
+
+.content__main-lasseter {
+   padding: 15px 0px 0px 15px;
+   font-family: "Gilroy", sans-serif;
+   color: #00f7ff;
+   font-weight: 700;
+   font-size: 25px;
+   text-shadow: 8px 8px 8px #000;
+   letter-spacing: 2px;
+   text-align: justify;
+   word-spacing: 10px;
+   font-style: italic;
+   text-decoration: underline;
+}
+.content__main-takeoff {
+   padding: 25px 0px 0px 15px;
+   font-family: "Crimson+Text", sans-serif;
+   color: #fff;
+   font-weight: 700;
+   font-size: 25px;
+   text-shadow: -8px -8px 8px #000080;
+   letter-spacing: 2px;
+   text-align: justify;
+   word-spacing: 10px;
+   text-decoration: overline;
+   text-transform: lowercase;
+   text-indent: 50px;
+}
+
+._textfonts h2 {
+   font-family: "Gilroy", sans-serif;
+   color: #3700ff;
+   font-weight: 700;
+   font-size: 50px;
+   text-align: center;
+   letter-spacing: 3px;
+   word-spacing: 3px;
+   white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+   ._textfonts h2 {
+      font-family: "Gilroy", sans-serif;
+      color: #3700ff;
+      font-weight: 700;
+      font-size: 35px;
+      text-align: center;
+      letter-spacing: 3px;
+      word-spacing: 3px;
+   }
+}
+.footer {
+   font-family: "Gilroy", sans-serif;
+   color: #00f7ff;
+   font-weight: 700;
+   font-size: 25px;
+   text-align: center;
+   letter-spacing: 3px;
+   word-spacing: 3px;
+}
+.footer__title {
+   margin: 20px 0px 20px 0px;
+   font-size: 50px;
+   color: #09ff00;
+}
+@media (max-width: 767px) {
+   .footer__title {
+      font-size: 30px;
+   }
+}
+.footer__text {
+   line-height: 200%;
+}
